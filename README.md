@@ -73,5 +73,5 @@ flowchart TD
 
 **Hassam** | Data Scientist & AI Engineer
 
-- [GitHub](https://github.com/hassam-Rajpoot-10)
+- [GitHub](https://github.com/Rajpoot-10)
 - [Portfolio](https://hassam-ali-self.vercel.app/)
