@@ -14,7 +14,7 @@
           "downloadAttachments": true
         }
       },
-      "id": "9211cfa7-c2d8-44e5-a11b-8d6c2d7228a8",
+      "id": "Here have to write id",
       "name": "Gmail Trigger",
       "type": "n8n-nodes-base.gmailTrigger",
       "typeVersion": 1.2,
@@ -24,7 +24,7 @@
       ],
       "credentials": {
         "gmailOAuth2": {
-          "id": "zI1Q7LpDpH05ke0G",
+          "id": "Here have to write id",
           "name": "Gmail account 7"
         }
       }
@@ -53,7 +53,7 @@
         },
         "options": {}
       },
-      "id": "69f1e7d9-abdb-4daa-ba39-f50bb4eb6a97",
+      "id": "Here have to write id",
       "name": "Has Attachment?",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
@@ -68,7 +68,7 @@
         "binaryPropertyName": "attachment_0",
         "options": {}
       },
-      "id": "ca695827-998c-4b81-a885-4c67c4402c77",
+      "id": "Here have to write id",
       "name": "Extract from File",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
@@ -88,7 +88,7 @@
         },
         "options": {}
       },
-      "id": "eeace1ee-142d-465c-9728-fc17321f18f4",
+      "id": "Here have to write id",
       "name": "Pinecone Vector Store",
       "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
       "typeVersion": 1,
@@ -98,7 +98,7 @@
       ],
       "credentials": {
         "pineconeApi": {
-          "id": "icZAuYuaAe6zrlLp",
+          "id": "Here have to write id",
           "name": "Pinecone account"
         }
       }
@@ -107,7 +107,7 @@
       "parameters": {
         "options": {}
       },
-      "id": "f681a290-ce1c-46b9-8ed6-aa262eb81beb",
+      "id": "Here have to write id",
       "name": "Default Data Loader",
       "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
       "typeVersion": 1,
@@ -122,7 +122,7 @@
         "chunkOverlap": 100,
         "options": {}
       },
-      "id": "f79b0329-f7e6-4bf8-956d-be2fdb66bb3d",
+      "id": "Here have to write id",
       "name": "Recursive Character Text Splitter",
       "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
       "typeVersion": 1,
@@ -139,7 +139,7 @@
         -320,
         224
       ],
-      "id": "dc50a638-3e4d-4de3-be45-1ea0efaf761e",
+      "id": "Here have to write id",
       "name": "Embeddings Google Gemini",
       "credentials": {
         "googlePalmApi": {
@@ -180,7 +180,7 @@
         },
         "options": {}
       },
-      "id": "0a74bc4c-1825-4f40-9dc1-2c6ea02128f5",
+      "id": "Here have to write id",
       "name": "Extract Question",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
@@ -197,7 +197,7 @@
           "systemMessage": "You are a helpful assistant that answers questions from emails. Use the Pinecone knowledge base tool to search for relevant context before answering. If the tool returns no relevant information, say you don't have enough information rather than guessing."
         }
       },
-      "id": "8394f246-9501-450a-a683-79a180861be9",
+      "id": "Here have to write id",
       "name": "AI Agent",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 1.9,
@@ -219,7 +219,7 @@
         },
         "options": {}
       },
-      "id": "00dca7ac-2cdd-440d-87e3-c9670079fbc0",
+      "id": "Here have to write id",
       "name": "Pinecone Vector Store (Retrieve as Tool)",
       "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
       "typeVersion": 1,
@@ -229,7 +229,7 @@
       ],
       "credentials": {
         "pineconeApi": {
-          "id": "icZAuYuaAe6zrlLp",
+          "id": "Here have to write id",
           "name": "Pinecone account"
         }
       }
@@ -241,7 +241,7 @@
         "message": "={{ $json.output }}",
         "options": {}
       },
-      "id": "731957e8-a181-4859-9e83-1b2b4acd8f6a",
+      "id": "Here have to write id",
       "name": "Gmail Reply",
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.1,
@@ -249,10 +249,10 @@
         1632,
         1280
       ],
-      "webhookId": "9075e253-4d5e-4b27-bb2e-39724e2b8121",
+      "webhookId": "Here have to write Webhook_id",
       "credentials": {
         "gmailOAuth2": {
-          "id": "u2y9Gf8TYuvMnmKD",
+          "id": "Here have to write id",
           "name": "Gmail account 8"
         }
       }
@@ -268,7 +268,7 @@
         },
         "options": {}
       },
-      "id": "e094434d-d358-451c-83e9-fb90e36cce20",
+      "id": "Here have to write id",
       "name": "Gmail Trigger1",
       "type": "n8n-nodes-base.gmailTrigger",
       "typeVersion": 1.2,
@@ -278,14 +278,14 @@
       ],
       "credentials": {
         "gmailOAuth2": {
-          "id": "u2y9Gf8TYuvMnmKD",
+          "id": "Here have to write id",
           "name": "Gmail account 8"
         }
       }
     },
     {
       "parameters": {},
-      "id": "a13402b8-b42b-4a73-9dcc-8f2c65d1c996",
+      "id": "Here have to write id",
       "name": "Embeddings Google Gemini1",
       "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
       "typeVersion": 1,
@@ -295,7 +295,7 @@
       ],
       "credentials": {
         "googlePalmApi": {
-          "id": "mcWcsfgwaNk9Delb",
+          "id": "Here have to write id",
           "name": "Google Gemini(PaLM) Api account"
         }
       }
@@ -311,11 +311,11 @@
         1120,
         1488
       ],
-      "id": "98518204-5d96-4991-b65d-2c7390fa6aeb",
+      "id": "Here have to write id",
       "name": "Groq Chat Model",
       "credentials": {
         "groqApi": {
-          "id": "YUMY8s2hussRGuid",
+          "id": "Here have to write id",
           "name": "Groq account 2"
         }
       }
@@ -465,9 +465,9 @@
   "versionId": "d3ccc57a-7c8b-472b-aa94-48318519244b",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "9173bbaafa9d344bc9cf0a21667fbe067dedfad9d2babffd6aa5506ddfe561de"
+    "instanceId": "Here have to write instanceid"
   },
   "nodeGroups": [],
-  "id": "8qferLz2nulVT9uF",
+  "id": "Here have to write id",
   "tags": []
 }
